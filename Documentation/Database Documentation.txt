@@ -1,0 +1,17 @@
+Hangouts Against Humanity - Database Documentation
+
+Hangous Against Humanity uses a CSV-based card database to store playing cards.
+There are 4 main fields to a card database: ID, Color, Text, How many cards are picked?.
+
+    ID - 512
+        The ID field is a unique identifier for that particular card.
+    Color - 1
+        The Color field distinguishes the card on the table from the cards in player's hands.
+    Text - Rumor has it that Vladimir Putin's favorite dish is _ stuffed with _.
+        The Text field is the literal representation of the text written on the card.
+    How many cards are picked? - 2
+        The How many cards are picked? field tells how many cards should be played this turn.
+
+Both cards on the table and cards in player's hands are stored in the same CSV database,
+this allows for easy expansion packs to be created by users/modders. An entire 
+mod can now be stored in a single file.
