@@ -1,0 +1,8 @@
+Hangouts Against Humanity - Project Overview
+
+Hangouts Against Humanity is a Google App Engine-powered game for Google+
+hangouts written in Javascript and licensed under the GPLv3 or any later version.
+The main game logic which resembles Cards Against Humanity or Apples to Apples
+is completely expandable by creating a CSV card database and selecting it before
+the game begins. (The selection UI will not be completed until after the 
+first 1.0 release).

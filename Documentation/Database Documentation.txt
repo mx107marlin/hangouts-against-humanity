@@ -1,0 +1,4 @@
+Hangouts Against Humanity - Database Documentation
+
+Hangous Against Humanity uses a CSV-based card database to store playing cards.
+This is a stub, you can help expand it.
